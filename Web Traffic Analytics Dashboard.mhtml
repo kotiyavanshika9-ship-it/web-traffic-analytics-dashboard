@@ -1,0 +1,223 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/Users/Vanshika/Downloads/Web_Traffic_Interactive_Dashboard%20(1).html
+Subject: Web Traffic Analytics Dashboard
+Date: Sat, 10 Oct 2026 18:40:55 GMT
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--8ahsgNUp3P5zCFOUV97inRHcL4tb8xoSuuCFg1PB2t----"
+
+
+------MultipartBoundary--8ahsgNUp3P5zCFOUV97inRHcL4tb8xoSuuCFg1PB2t----
+Content-Type: text/html
+Content-ID: <frame-01E1DBBE0FFD9B1160B6349529E337B3@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/Users/Vanshika/Downloads/Web_Traffic_Interactive_Dashboard%20(1).html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-4e2fbccb-5bfc-49be-8014-93117a6ef9e6@mhtml.blink" />
+
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<title>Web Traffic Analytics Dashboard</title>
+
+</head>
+<body>
+<header><h1>Web Traffic Analytics</h1><p>Channel performance =C2=B7 Engagem=
+ent =C2=B7 Conversion funnel =C2=B7 Landing-page drop-off</p></header>
+<main>
+<div class=3D"notice"><strong>Demo data:</strong> This interactive dashboar=
+d uses synthetic sample sessions (not a real website export). Upload or rep=
+lace the data in the project source to report real business results.</div>
+<section class=3D"filters">
+<label>Traffic channel<select id=3D"channel"><option value=3D"All">All chan=
+nels</option><option>Organic</option><option>Ads</option><option>Social</op=
+tion><option>Direct</option></select></label>
+<label>Device<select id=3D"device"><option value=3D"All">All devices</optio=
+n><option>Mobile</option><option>Desktop</option><option>Tablet</option></s=
+elect></label>
+<label>Landing page<select id=3D"landing"><option value=3D"All">All landing=
+ pages</option><option value=3D"Blog Article">Blog Article</option><option =
+value=3D"Campaign Landing Page">Campaign Landing Page</option><option value=
+=3D"Category Page">Category Page</option><option value=3D"Home Page">Home P=
+age</option><option value=3D"Pricing Page">Pricing Page</option><option val=
+ue=3D"Product Page">Product Page</option></select></label>
+<label>Duration minimum (seconds)<input id=3D"duration" type=3D"number" min=
+=3D"0" value=3D"0" style=3D"width:150px"></label>
+<button id=3D"reset" class=3D"secondary">Reset filters</button>
+<button id=3D"print">Print / Save PDF</button>
+</section>
+<section class=3D"kpis">
+<div class=3D"kpi"><div class=3D"label">Sessions</div><div class=3D"value" =
+id=3D"sessions">2,400</div><div class=3D"sub">Filtered visits</div></div>
+<div class=3D"kpi"><div class=3D"label">Bounce rate</div><div class=3D"valu=
+e" id=3D"bounce">40.8%</div><div class=3D"sub">Single-page sessions</div></=
+div>
+<div class=3D"kpi"><div class=3D"label">Avg. session duration</div><div cla=
+ss=3D"value" id=3D"durationKpi">92s</div><div class=3D"sub">Seconds per ses=
+sion</div></div>
+<div class=3D"kpi"><div class=3D"label">Conversion rate</div><div class=3D"=
+value" id=3D"conversion">6.1%</div><div class=3D"sub">Converted sessions / =
+sessions</div></div>
+</section>
+<section class=3D"grid">
+<div class=3D"panel"><h2>Sessions by channel</h2><p>How much traffic each c=
+hannel contributes</p><canvas id=3D"channelChart" width=3D"780" height=3D"3=
+50"></canvas></div>
+<div class=3D"panel"><h2>Bounce vs conversion rate</h2><p>Compare engagemen=
+t and outcomes by source</p><canvas id=3D"rateChart" width=3D"780" height=
+=3D"350"></canvas></div>
+<div class=3D"panel"><h2>Conversion funnel</h2><p>Illustrative stage counts=
+; replace with real event data for true funnel analysis</p><div id=3D"funne=
+l" class=3D"funnel"><div class=3D"funnel-row"><div>Sessions</div><div class=
+=3D"barbg"><div class=3D"bar" style=3D"width:100%"></div></div><div class=
+=3D"drop">100%</div></div><div class=3D"funnel-row"><div>Viewed product/con=
+tent</div><div class=3D"barbg"><div class=3D"bar" style=3D"width:71%"></div=
+></div><div class=3D"drop">29.0% drop</div></div><div class=3D"funnel-row">=
+<div>Cart / lead form</div><div class=3D"barbg"><div class=3D"bar" style=3D=
+"width:34%"></div></div><div class=3D"drop">52.1% drop</div></div><div clas=
+s=3D"funnel-row"><div>Checkout / submit</div><div class=3D"barbg"><div clas=
+s=3D"bar" style=3D"width:18%"></div></div><div class=3D"drop">47.1% drop</d=
+iv></div><div class=3D"funnel-row"><div>Converted</div><div class=3D"barbg"=
+><div class=3D"bar" style=3D"width:6.083333333333334%"></div></div><div cla=
+ss=3D"drop">66.2% drop</div></div></div></div>
+<div class=3D"panel"><h2>Landing-page bounce rate</h2><p>Pages to review fo=
+r message match, usability, and intent</p><canvas id=3D"landingChart" width=
+=3D"780" height=3D"350"></canvas></div>
+<div class=3D"panel wide"><h2>Channel performance table</h2><p>Metrics upda=
+te when filters change</p><div style=3D"overflow-x:auto"><table><thead><tr>=
+<th>Channel</th><th>Sessions</th><th>Bounce rate</th><th>Avg duration</th><=
+th>Pages/session</th><th>Conversions</th><th>Conv. rate</th></tr></thead><t=
+body id=3D"channelTable"><tr><td>Organic</td><td class=3D"num">871</td><td =
+class=3D"num">34.1%</td><td class=3D"num">101s</td><td class=3D"num">2.74</=
+td><td class=3D"num">66</td><td class=3D"num">7.6%</td></tr><tr><td>Ads</td=
+><td class=3D"num">649</td><td class=3D"num">48.7%</td><td class=3D"num">79=
+s</td><td class=3D"num">2.39</td><td class=3D"num">27</td><td class=3D"num"=
+>4.2%</td></tr><tr><td>Social</td><td class=3D"num">413</td><td class=3D"nu=
+m">57.6%</td><td class=3D"num">69s</td><td class=3D"num">2.05</td><td class=
+=3D"num">11</td><td class=3D"num">2.7%</td></tr><tr><td>Direct</td><td clas=
+s=3D"num">467</td><td class=3D"num">27.2%</td><td class=3D"num">111s</td><t=
+d class=3D"num">2.93</td><td class=3D"num">42</td><td class=3D"num">9.0%</t=
+d></tr></tbody></table></div></div>
+</section>
+<div class=3D"footer">Method: bounce rate =3D bounced sessions =C3=B7 sessi=
+ons; conversion rate =3D converted sessions =C3=B7 sessions; pages/session =
+=3D total pageviews =C3=B7 sessions. Dashboard runs locally in your browser=
+ and requires no internet connection.</div>
+</main>
+
+
+</body></html>
+------MultipartBoundary--8ahsgNUp3P5zCFOUV97inRHcL4tb8xoSuuCFg1PB2t----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4e2fbccb-5bfc-49be-8014-93117a6ef9e6@mhtml.blink
+
+@charset "utf-8";
+
+:root { --navy: #17324d; --teal: #26788a; --bg: #f4f7fb; --ink: #1d2b3a; --=
+muted: #667789; --line: #dbe4ec; --white: #fff; }
+
+* { box-sizing: border-box; }
+
+body { margin: 0px; font-family: Inter, "Segoe UI", Arial, sans-serif; back=
+ground: var(--bg); color: var(--ink); }
+
+header { background: linear-gradient(120deg, rgb(23, 50, 77), rgb(38, 120, =
+138)); color: rgb(255, 255, 255); padding: 28px clamp(16px, 4vw, 48px); }
+
+header h1 { margin: 0px 0px 8px; font-size: clamp(24px, 3vw, 36px); }
+
+header p { margin: 0px; color: rgb(225, 237, 244); }
+
+main { max-width: 1400px; margin: auto; padding: 22px clamp(12px, 3vw, 32px=
+) 48px; }
+
+.notice { background: rgb(255, 248, 231); border: 1px solid rgb(239, 219, 1=
+67); color: rgb(107, 84, 32); padding: 12px 14px; border-radius: 10px; marg=
+in-bottom: 18px; font-size: 14px; }
+
+.filters { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; bac=
+kground: rgb(255, 255, 255); padding: 16px; border: 1px solid var(--line); =
+border-radius: 14px; margin-bottom: 18px; }
+
+label { display: flex; flex-direction: column; gap: 6px; font-size: 12px; c=
+olor: var(--muted); font-weight: 700; }
+
+select, input, button { font: inherit; border: 1px solid rgb(203, 215, 226)=
+; border-radius: 8px; padding: 9px 11px; background: rgb(255, 255, 255); co=
+lor: var(--ink); }
+
+button { cursor: pointer; background: var(--navy); color: rgb(255, 255, 255=
+); border-color: var(--navy); }
+
+button.secondary { background: rgb(255, 255, 255); color: var(--navy); }
+
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0px, 1fr)); =
+gap: 14px; margin-bottom: 18px; }
+
+.kpi, .panel { background: rgb(255, 255, 255); border: 1px solid var(--line=
+); border-radius: 14px; padding: 17px; box-shadow: rgba(23, 50, 77, 0.035) =
+0px 2px 8px; }
+
+.kpi .label { font-size: 12px; color: var(--muted); font-weight: 700; }
+
+.kpi .value { font-size: clamp(22px, 2.5vw, 30px); font-weight: 800; color:=
+ var(--navy); margin: 8px 0px 3px; }
+
+.kpi .sub { font-size: 12px; color: var(--muted); }
+
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0px, 1fr)); =
+gap: 16px; }
+
+.panel h2 { font-size: 16px; margin: 0px 0px 4px; color: var(--navy); }
+
+.panel p { font-size: 12px; color: var(--muted); margin: 0px 0px 12px; }
+
+canvas { width: 100%; height: 280px; display: block; }
+
+.wide { grid-column: 1 / -1; }
+
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(=
+--line); }
+
+th { color: var(--muted); font-size: 11px; text-transform: uppercase; lette=
+r-spacing: 0.04em; }
+
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+.funnel { display: grid; gap: 9px; }
+
+.funnel-row { display: grid; grid-template-columns: 150px 1fr 70px; gap: 10=
+px; align-items: center; font-size: 12px; }
+
+.barbg { background: rgb(237, 242, 247); border-radius: 7px; height: 22px; =
+overflow: hidden; }
+
+.bar { height: 100%; background: linear-gradient(90deg, rgb(38, 120, 138), =
+rgb(74, 164, 173)); border-radius: 7px; }
+
+.drop { color: rgb(160, 75, 59); text-align: right; font-variant-numeric: t=
+abular-nums; }
+
+.footer { font-size: 12px; color: var(--muted); margin-top: 18px; }
+
+@media (max-width: 800px) {
+  .kpis { grid-template-columns: repeat(2, minmax(0px, 1fr)); }
+  .grid { grid-template-columns: 1fr; }
+  .wide { grid-column: auto; }
+  .funnel-row { grid-template-columns: 115px 1fr 56px; }
+  canvas { height: 250px; }
+}
+
+@media print {
+  body { background: rgb(255, 255, 255); }
+  .filters, button { display: none; }
+  .panel, .kpi { box-shadow: none; break-inside: avoid; }
+  header { print-color-adjust: exact; background: rgb(23, 50, 77) !importan=
+t; }
+}
+------MultipartBoundary--8ahsgNUp3P5zCFOUV97inRHcL4tb8xoSuuCFg1PB2t------
